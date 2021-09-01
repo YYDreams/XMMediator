@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XMMediator_Tests' do
+  pod 'XMMediator', :path => '../'
+  
+  
+end
