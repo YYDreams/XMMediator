@@ -1,0 +1,16 @@
+PODS:
+  - XMMediator (0.1.0)
+
+DEPENDENCIES:
+  - XMMediator (from `../`)
+
+EXTERNAL SOURCES:
+  XMMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMMediator: 8435bec8bbd87e2c547f07fd2802a3fee6359c6e
+
+PODFILE CHECKSUM: f6031f5fe7bc89d46bf0dae8fe67ebec27915443
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module XMMediator {
+  umbrella header "XMMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

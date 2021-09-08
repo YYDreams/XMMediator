@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C5891A3DCADF36D20F36B90D1A547A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B647B75443377B4E88F31272DB6454EC /* XMMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A2B743AC44192AF4FA6D788295A117 /* XMMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B44866F7F9FB3017B9EB5F56C3A17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF198B39193A3FEA44D64CA21DC852C4 /* Pods-XMMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41168CE0DEA461F74C6987EE006FEAEF /* Pods-XMMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D86E590E744328DFA5256C71ACD0CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7356796E74D2F05E50819CDC3D82D /* ReplaceMe.swift */; };
+		DCADBF11483C2497BC0826B9085B9102 /* XMMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D1E05ECE2FA6D1119310BD5F9F0907 /* XMMediator-dummy.m */; };
+		E4BE861D772A204F7A39C772C89C3E70 /* Pods-XMMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E18F9F62A93E72393602E0A31E30B6CD /* Pods-XMMediator_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61EB6C6635F9093B63BACA3E96A8D107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE828CB1F71F696685FEE687A75EB8F;
+			remoteInfo = XMMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2A7DCD0A2AEBD167E09D5F0390F87D /* XMMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMMediator.debug.xcconfig; sourceTree = "<group>"; };
+		130D303FE3B113DAF92F51F69E7FD4B9 /* Pods_XMMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMMediator_Tests.framework; path = "Pods-XMMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		141E282961499BD2609FB8CD05AEFF67 /* XMMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMMediator.framework; path = XMMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41168CE0DEA461F74C6987EE006FEAEF /* Pods-XMMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C2D0E275B0E1EE8414E3AF438F29826 /* Pods-XMMediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMMediator_Tests-Info.plist"; sourceTree = "<group>"; };
+		6EF7356796E74D2F05E50819CDC3D82D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XMMediator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74D1E05ECE2FA6D1119310BD5F9F0907 /* XMMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMMediator-dummy.m"; sourceTree = "<group>"; };
+		79DE7E20D5EA3134198B8CBFD5D86DD1 /* XMMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8077CDD799DA6BA012CBDFA90F93A500 /* Pods-XMMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		832F614EC9469C21744172835F20A73A /* Pods-XMMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9E0EB4E24CE741104BA30539F5C001 /* Pods-XMMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91A2B743AC44192AF4FA6D788295A117 /* XMMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMMediator-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9FCBE9E44FD73547D4A998E5490E59 /* Pods-XMMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B14B430586D35A0F5F2D45C373C1DBEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B820880E91DF9F8293BA5C3ED1457839 /* XMMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMMediator-prefix.pch"; sourceTree = "<group>"; };
+		C93809DB357973E6EAAF60290E0CAF33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF11C802EF07A8041A51B37B00E8531D /* XMMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMMediator.modulemap; sourceTree = "<group>"; };
+		E18F9F62A93E72393602E0A31E30B6CD /* Pods-XMMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		F23263E813721F3F94059A94E5068C30 /* XMMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMMediator-Info.plist"; sourceTree = "<group>"; };
+		F4D3BBCBE147190142EDD741018367D8 /* Pods-XMMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F0B18298BD3069803160311A9C576F /* Pods-XMMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		FB496318BECBB24E34CFDAA0A9732578 /* XMMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMMediator.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03160BB5B1E3BEED64F8EA89DFF68BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B44866F7F9FB3017B9EB5F56C3A17F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B1293266A79DC4A3BD54A7110946BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5891A3DCADF36D20F36B90D1A547A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A04376B14EB2B9801E4785EE4E02FB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF11C802EF07A8041A51B37B00E8531D /* XMMediator.modulemap */,
+				74D1E05ECE2FA6D1119310BD5F9F0907 /* XMMediator-dummy.m */,
+				F23263E813721F3F94059A94E5068C30 /* XMMediator-Info.plist */,
+				B820880E91DF9F8293BA5C3ED1457839 /* XMMediator-prefix.pch */,
+				91A2B743AC44192AF4FA6D788295A117 /* XMMediator-umbrella.h */,
+				0E2A7DCD0A2AEBD167E09D5F0390F87D /* XMMediator.debug.xcconfig */,
+				FB496318BECBB24E34CFDAA0A9732578 /* XMMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMMediator";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57CC98D10143A30F0B71C69FDAE85093 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C93809DB357973E6EAAF60290E0CAF33 /* LICENSE */,
+				B14B430586D35A0F5F2D45C373C1DBEE /* README.md */,
+				79DE7E20D5EA3134198B8CBFD5D86DD1 /* XMMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6A57636E03DDEE8AEBA9A1BB38A14462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				130D303FE3B113DAF92F51F69E7FD4B9 /* Pods_XMMediator_Tests.framework */,
+				141E282961499BD2609FB8CD05AEFF67 /* XMMediator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8C9EBD89AD9783FD4AF9E19C24199A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC7FE70223C1CAF02DE3160E8CCB9ADA /* XMMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BFF3386261C4540278A23DE07674FB80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E31C3D9E79725115CC82F28C42DD4490 /* Pods-XMMediator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC7FE70223C1CAF02DE3160E8CCB9ADA /* XMMediator */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7356796E74D2F05E50819CDC3D82D /* ReplaceMe.swift */,
+				57CC98D10143A30F0B71C69FDAE85093 /* Pod */,
+				1A04376B14EB2B9801E4785EE4E02FB0 /* Support Files */,
+			);
+			name = XMMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AB8C9EBD89AD9783FD4AF9E19C24199A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6A57636E03DDEE8AEBA9A1BB38A14462 /* Products */,
+				BFF3386261C4540278A23DE07674FB80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31C3D9E79725115CC82F28C42DD4490 /* Pods-XMMediator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F0B18298BD3069803160311A9C576F /* Pods-XMMediator_Tests.modulemap */,
+				F4D3BBCBE147190142EDD741018367D8 /* Pods-XMMediator_Tests-acknowledgements.markdown */,
+				9F9FCBE9E44FD73547D4A998E5490E59 /* Pods-XMMediator_Tests-acknowledgements.plist */,
+				E18F9F62A93E72393602E0A31E30B6CD /* Pods-XMMediator_Tests-dummy.m */,
+				8077CDD799DA6BA012CBDFA90F93A500 /* Pods-XMMediator_Tests-frameworks.sh */,
+				5C2D0E275B0E1EE8414E3AF438F29826 /* Pods-XMMediator_Tests-Info.plist */,
+				41168CE0DEA461F74C6987EE006FEAEF /* Pods-XMMediator_Tests-umbrella.h */,
+				832F614EC9469C21744172835F20A73A /* Pods-XMMediator_Tests.debug.xcconfig */,
+				8D9E0EB4E24CE741104BA30539F5C001 /* Pods-XMMediator_Tests.release.xcconfig */,
+			);
+			name = "Pods-XMMediator_Tests";
+			path = "Target Support Files/Pods-XMMediator_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CE48F0BDDFCAE1F7699CDBC7DA6A4B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B647B75443377B4E88F31272DB6454EC /* XMMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DDAAA70B0BD29FC45A772362E064E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF198B39193A3FEA44D64CA21DC852C4 /* Pods-XMMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76E4931DF19CEC069D3125B801089B56 /* Pods-XMMediator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5DD1D642B9A663656F9DE4E2288A7 /* Build configuration list for PBXNativeTarget "Pods-XMMediator_Tests" */;
+			buildPhases = (
+				B5DDAAA70B0BD29FC45A772362E064E0 /* Headers */,
+				B01A28472237D749C94CBCFA99DC59E8 /* Sources */,
+				03160BB5B1E3BEED64F8EA89DFF68BED /* Frameworks */,
+				EAB05BB39AC33E40DB140566A6D7D3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				376A408E441259564B01B4C12ED6FE23 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMMediator_Tests";
+			productName = "Pods-XMMediator_Tests";
+			productReference = 130D303FE3B113DAF92F51F69E7FD4B9 /* Pods_XMMediator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFE828CB1F71F696685FEE687A75EB8F /* XMMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D165FAD8D93BB0C48C72AB22CDE1710 /* Build configuration list for PBXNativeTarget "XMMediator" */;
+			buildPhases = (
+				9CE48F0BDDFCAE1F7699CDBC7DA6A4B4 /* Headers */,
+				80127A238008184E5E0BAF3A4AAB110A /* Sources */,
+				66B1293266A79DC4A3BD54A7110946BB /* Frameworks */,
+				8D7E46C27977244631BE3D44728A97AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMMediator;
+			productName = XMMediator;
+			productReference = 141E282961499BD2609FB8CD05AEFF67 /* XMMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6A57636E03DDEE8AEBA9A1BB38A14462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E4931DF19CEC069D3125B801089B56 /* Pods-XMMediator_Tests */,
+				AFE828CB1F71F696685FEE687A75EB8F /* XMMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D7E46C27977244631BE3D44728A97AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB05BB39AC33E40DB140566A6D7D3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80127A238008184E5E0BAF3A4AAB110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D86E590E744328DFA5256C71ACD0CD /* ReplaceMe.swift in Sources */,
+				DCADBF11483C2497BC0826B9085B9102 /* XMMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01A28472237D749C94CBCFA99DC59E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BE861D772A204F7A39C772C89C3E70 /* Pods-XMMediator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		376A408E441259564B01B4C12ED6FE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMMediator;
+			target = AFE828CB1F71F696685FEE687A75EB8F /* XMMediator */;
+			targetProxy = 61EB6C6635F9093B63BACA3E96A8D107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		169DD64137DCFC288EF2A7DE81246BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2A7DCD0A2AEBD167E09D5F0390F87D /* XMMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMMediator/XMMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMMediator/XMMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMMediator/XMMediator.modulemap";
+				PRODUCT_MODULE_NAME = XMMediator;
+				PRODUCT_NAME = XMMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD8D5DF6C4D0B791A24F2CC68CF13A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832F614EC9469C21744172835F20A73A /* Pods-XMMediator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMMediator_Tests/Pods-XMMediator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMMediator_Tests/Pods-XMMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0CE7F8ED499BF3AFD59B3B23FEE2AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9E0EB4E24CE741104BA30539F5C001 /* Pods-XMMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMMediator_Tests/Pods-XMMediator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMMediator_Tests/Pods-XMMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F42297E548E3D80A2A97558BD59590AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB496318BECBB24E34CFDAA0A9732578 /* XMMediator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMMediator/XMMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMMediator/XMMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMMediator/XMMediator.modulemap";
+				PRODUCT_MODULE_NAME = XMMediator;
+				PRODUCT_NAME = XMMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D165FAD8D93BB0C48C72AB22CDE1710 /* Build configuration list for PBXNativeTarget "XMMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169DD64137DCFC288EF2A7DE81246BE2 /* Debug */,
+				F42297E548E3D80A2A97558BD59590AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5DD1D642B9A663656F9DE4E2288A7 /* Build configuration list for PBXNativeTarget "Pods-XMMediator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8D5DF6C4D0B791A24F2CC68CF13A6E /* Debug */,
+				C0CE7F8ED499BF3AFD59B3B23FEE2AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
